@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Learn to Defend Against Phishing!</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A tool to teach you about online phishing.">
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/layout.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<section class="title">
+				<h1>True or False / Legitimate or Fraudulent<span class="sub-title">Phising</span></h1>
+			</section>
+			<button type="button" class="hide hint-btn">Hint</button>
+		</header>
+
+		<main>
+			<article class="begin question-answer-wrapper">
+				<section class="hide results-wrapper">
+					<p class="quiz-end-score"></p>
+					<div class="quiz-end-feedback">
+						<p class="quiz-end-feedback-p"></p>
+						<div class="quiz-end-categories"></div>
+					</div>
+					<button type="button" class="retry-btn pass">Retry</button>
+				</section>
+				<section class="question-wrapper">
+					<p class="question">True or False / Legitimate or Fraudelant Quiz!</p>
+					<p class="hide code"></code>
+					<button type="button" class="hide submit-btn submit-btn-landscape" disabled>Submit</button>
+				</section>
+				<form class="begin answer-wrapper">
+					<button type="button" class="start-quiz">Start Quiz</button>
+					<input type="submit" class="hide submit-btn submit-btn-portrait" value="Submit" disabled>
+				</form>
+			</article>
+		</main>
+
+		<footer>
+			<section class="hide progress-bar">
+				
+			</section>
+			<section class="hide progress">
+				<p class="progress-fill">
+					Progress: <span class="progress-count">1 / 8</span><span class="progress-perc"></span>
+				</p>
+			</section>
+		</footer>
+		<div id="output">
+		</div>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
